@@ -158,6 +158,18 @@ header .textos-header{
 
 /*Clientes*/
 
+.nombre-cool{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nombre-cool{
+    font-size: 20px;
+}
+.nombre-cool:hover{
+    text-decoration: underline;
+}
+
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -185,8 +197,13 @@ header .textos-header{
     color: #ffffff;
 }
 .cards .card > .contenido-texto-card p{
+    font-size: 14px;
     font-weight: 300;
     padding-top: 5px;
+}
+.contenido-texto-card > p{
+    font-size: 300;
+    text-align: justify;
 }
 
 /*Mis servicios*/
